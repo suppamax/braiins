@@ -1,4 +1,4 @@
-asyncssh==1.15.0
+asyncssh==2.5.0
 bcrypt==3.1.7
 cffi==1.13.2
 cloudpickle==1.2.2
