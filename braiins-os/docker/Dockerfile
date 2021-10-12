@@ -23,7 +23,7 @@
 # docker build --build-arg LOC_UID=$(id -u) --build-arg LOC_GID=$(id -g) -t bos-builder docker/
 # docker run --rm -v $SSH_AUTH_SOCK:/ssh-agent --env SSH_AUTH_SOCK=/ssh-agent -ti bos-builder
 
-FROM debian:stretch-20210326 AS build-system
+FROM debian:stretch AS build-system
 
 RUN apt-get update && apt-get install -y \
     build-essential \
