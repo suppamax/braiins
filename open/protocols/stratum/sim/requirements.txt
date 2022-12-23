@@ -6,3 +6,4 @@ event_bus
 colorama
 stringcase
 git+ssh://git@github.com/braiins/black.git@braiins-codestyle#egg=black
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
