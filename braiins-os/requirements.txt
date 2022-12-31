@@ -7,7 +7,7 @@ cryptography==2.8
 doit==0.31.1
 gitdb==4.0.2
 gitdb2==2.0.6
-GitPython==3.1.0
+GitPython==3.1.30
 nulltype==2.3.1
 paramiko==2.4.2
 progress==1.2
